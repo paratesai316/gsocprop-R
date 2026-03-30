@@ -53,3 +53,7 @@ This package includes an automated test suite using testthat to verify the under
 ```r
 devtools::test()
 ```
+
+## GSoC Project
+* Wiki: https://github.com/rstats-gsoc/gsoc2026/wiki/Multilingual-documentation-of-R-packages
+
