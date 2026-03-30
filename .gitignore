@@ -1,0 +1,15 @@
+.RData
+.Rhistory
+.Rapp.history
+.Ruserdata
+
+.Rproj.user/
+*.Rproj
+
+*.o
+*.so
+*.dll
+*.tgz
+*.tar.gz
+
+.DS_Store
