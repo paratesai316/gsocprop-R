@@ -24,5 +24,32 @@ To see the dynamic macros in action, you must fully install the package locally.
 You can install this package directly from GitHub using the `devtools` package:
 
 ```r
-devtools::install_github("yourusername/GSOC")
+devtools::install_github("paratesai316/gsocprop-R")
+```
+
+## Usage & Testing
+
+Once installed, restart your R session to clear any cached documentation, then load the package and view the help file:
+
+```r
+library(GSOC)
+
+# Test the function logic
+submit_proposal() 
+
+# View the dynamically generated documentation
+?submit_proposal
+```
+
+When you view the documentation, you will see two dynamically generated strings in the description:
+
+1. The static deadline date (evaluated at install time).
+2. A dynamic message stating how many days are left until the deadline (evaluated at render time).
+
+## Automated Testing
+
+This package includes an automated test suite using testthat to verify the underlying date logic and helper functions. To run the tests:
+
+```r
+devtools::test()
 ```
